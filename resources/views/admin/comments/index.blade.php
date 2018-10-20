@@ -60,7 +60,7 @@
                                         {{$comment->created_at->format('d-m-Y')}}
                                     </td>
                                     <td>
-           <form method="comment" action="{{route('comments.destroy', $comment->id)}}">
+           <form method="post" action="{{route('comments.destroy', $comment->id)}}">
             @csrf
             @method('DELETE')
 <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete record?')"><i class="far fa-trash-alt"></i> Delete</button>
