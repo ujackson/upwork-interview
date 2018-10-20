@@ -15,3 +15,9 @@ This is my Upwork interview test website.
 ***1. Clone Repository***
 
 ***2. php artisan migrate:fresh --seed***
+
+### Admin Login Details
+
+--Username: webadmin@interview-test.com
+
+--Password: secret
