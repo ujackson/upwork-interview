@@ -1,5 +1,5 @@
 # upwork-interview
-Upwork Interview Test (https://upwork-interview.herokuapp.com)
+Upwork Interview Test (http://upwork-interview.herokuapp.com)
 
 This is my Upwork interview test website.
 >Build a small text post and video post site.
@@ -15,3 +15,9 @@ This is my Upwork interview test website.
 ***1. Clone Repository***
 
 ***2. php artisan migrate:fresh --seed***
+
+### Admin Login Details
+
+--Username: webadmin@interview-test.com
+
+--Password: secret
